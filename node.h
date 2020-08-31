@@ -1,5 +1,5 @@
-#ifndef NODEHEAD
-#define NODEHEAD
+#ifndef NODEHEAD_H
+#define NODEHEAD_H
 
 // Node for storing characters
 typedef struct node
@@ -15,7 +15,7 @@ node * start = NULL;
 // Function declartions 
 node * load_data(node * start, const char * data); 
 void print_reverse(node * start);
-void free_nodes(node * start)
+void free_nodes(node * start);
 
 
 
