@@ -1,3 +1,6 @@
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include "node.h"
 
 // Function defintion for loading the data
 node * load_data(node * start, const char * data)
